@@ -1,0 +1,236 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#nave{
+    margin: auto;
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1
+{
+color: #772222;
+}
+ul li{
+
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+background-color: #772222;
+color: #030303;
+padding: 10px 15px;
+display: block;
+
+ background-color: hsl(60, 6%, 94%);
+padding: 10px;
+}
+
+
+ul li a:hover{
+    background-color: azure;
+}
+
+body{
+    background-color: rgb(251, 253, 255);
+}
+
+ul>li{
+    float: left;
+    position: relative;
+}
+
+ ul li ul li{
+    float:none;
+ }
+
+ ul li ul{
+    display: none;
+     position: absolute;
+min-width: 140px;
+ }
+
+ ul li:hover>ul{
+    display: block;
+ }
+
+ ul li ul li{
+
+    position: relative;
+ }
+
+ ul li ul li ul{
+    right: -140px;
+    top:0px;
+ }
+
+
+
+
+ header{
+
+  background-color: #1e2774;;
+  display: flex;
+ align-items:center;
+ justify-content: space-around;
+:vertical header rotate
+  transform rotate;
+position:absolute;
+/*left: 10px;
+top: 50px;; */
+transform-origin: left top;
+width: 100%;
+height: 15%;
+}
+
+
+
+.img{
+    width: 200px;
+    height: 120px;
+}
+
+.diferenciador{
+    width:100%; 
+    height: 100vh; 
+    background-color: rgb(253, 253, 253);
+     
+}
+
+h1{
+   color: black;
+font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+font-size: 200%;
+
+
+}
+
+
+
+
+.fondo{
+     
+display: flex;
+    background: url(uuu.png);
+    background-size: cover;
+
+    align-items: center;
+    margin: 0% auto;
+
+  text-align: center;
+    height: 100vh;
+
+font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+
+
+   
+.pro{ 
+   
+    display: flex;
+    background: url(ks.png);
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+padding: 20px;
+color: hsl(0, 0%, 100%);
+border: 3px solid #27021f;
+backdrop-filter: blur(5px);
+
+}
+
+/*
+.dulce{
+
+display: flex;
+    background: url(.png);
+    background-size: cover;
+text-align: center;
+   padding: 20px;
+   border: 3px solid black;
+background-filter:blur(5px);
+
+
+
+}
+
+.rojo{
+     display: flex;
+    background: url(ll.png);
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+.verde{
+display: flex;
+    background: url(ll.png);
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+
+
+
+}
+
+.morado{
+display: flex;
+    background: url(lo.png);
+    background-size: cover;
+
+   
+   
+
+}
+
+
+.lila{
+display: flex;
+    background: url(.png);
+    background-size: cover;
+text-align: center;
+   padding: 20px;
+   border: 3px solid black;
+
+
+
+
+
+
+}*/
+   .rojo{
+     display: flex;
+    background: url(ks.png);
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+
